@@ -1,0 +1,10 @@
+       python3
+       flask
+       redis
+       pyquery
+       lxml
+       requests
+       json
+       asyncio
+       aiohttp
+       uwsgi

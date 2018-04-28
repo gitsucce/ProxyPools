@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+    <head>
+        <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <title>ProxyPool-免费代理IP</title>
+                    <meta name="description" content="ProxyPool - 免费代理IP池。">
+                        <meta itemprop="name" content="VulApps"/>
+                        <meta itemprop="description" content="ProxyPool - 免费代理IP池。">
+                            <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}" type="image/x-icon"/>
+                            <meta name="application-name" content="ProxyPool">
+                                <meta name="msapplication-TileColor" content="#0562DC">
+                                    <meta name="msapplication-square70x70logo" content="smalltile.png"/>
+                                    <meta name="msapplication-square150x150logo" content="mediumtile.png"/>
+                                    <meta name="msapplication-wide310x150logo" content="widetile.png"/>
+                                    <meta name="msapplication-square310x310logo" content="largetile.png"/>
+                                    <meta name="theme-color" content="">
+                                        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    </head>
+    <body>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="none" version="1.1">
+            <defs>
+                <symbol id="icon-menu" viewBox="0 0 1024 1024">
+                    <path class="path1"
+                    d="M128 213.333h768q17.667 0 30.167 12.5t12.5 30.167-12.5 30.167-30.167 12.5h-768q-17.667 0-30.167-12.5t-12.5-30.167 12.5-30.167 30.167-12.5zM128 725.333h768q17.667 0 30.167 12.5t12.5 30.167-12.5 30.167-30.167 12.5h-768q-17.667 0-30.167-12.5t-12.5-30.167 12.5-30.167 30.167-12.5zM128 469.333h768q17.667 0 30.167 12.5t12.5 30.167-12.5 30.167-30.167 12.5h-768q-17.667 0-30.167-12.5t-12.5-30.167 12.5-30.167 30.167-12.5z"/>
+                </symbol>s
+                <symbol id="icon-search" viewBox="0 0 951 1024">
+                    <path class="path1"
+                    d="M658.286 475.429q0-105.714-75.143-180.857t-180.857-75.143-180.857 75.143-75.143 180.857 75.143 180.857 180.857 75.143 180.857-75.143 75.143-180.857zM950.857 950.857q0 29.714-21.714 51.429t-51.429 21.714q-30.857 0-51.429-21.714l-196-195.429q-102.286 70.857-228 70.857-81.714 0-156.286-31.714t-128.571-85.714-85.714-128.571-31.714-156.286 31.714-156.286 85.714-128.571 128.571-85.714 156.286-31.714 156.286 31.714 128.571 85.714 85.714 128.571 31.714 156.286q0 125.714-70.857 228l196 196q21.143 21.143 21.143 51.429z"/>
+                </symbol>
+                <symbol id="icon-close" viewBox="0 0 805 1024">
+                    <path class="path1"
+                    d="M741.714 755.429q0 22.857-16 38.857l-77.714 77.714q-16 16-38.857 16t-38.857-16l-168-168-168 168q-16 16-38.857 16t-38.857-16l-77.714-77.714q-16-16-16-38.857t16-38.857l168-168-168-168q-16-16-16-38.857t16-38.857l77.714-77.714q16-16 38.857-16t38.857 16l168 168 168-168q16-16 38.857-16t38.857 16l77.714 77.714q16 16 16 38.857t-16 38.857l-168 168 168 168q16 16 16 38.857z"/>
+                </symbol>
+            </defs>
+        </svg>
+        <header class="bar-header"><h1 class="logo"><a href="/"></a></h1></header>
+        <div class="search-wrapper">
+            <div class="search-form"><input type="text" class="search-field" placeholder="Search...">
+                <svg class="icon-remove-sign">
+                    <use xlink:href="#icon-close"></use>
+                </svg>
+                <ul class="search-results search-list"></ul>
+                </div>
+        </div>
+        <div id="fade" class="overlay"></div>
+        <a id="slide" class="slideButton fade">
+            <svg id="open" class="icon-menu">
+                <use xlink:href="#icon-menu"></use>
+            </svg>
+            <svg id="close" class="icon-menu">
+                <use xlink:href="#icon-close"></use>
+            </svg>
+        </a>
+        <aside id="sidebar">
+            <nav id="navigation"><h2>MENU</h2>
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="http://byd.dropsec.xyz/">博客</a></li>
+                    <li><a href="http://byd.dropsec.xyz/2018/04/27/PrxoyPool-%E5%85%8D%E8%B4%B9%E4%BB%A3%E7%90%86%E6%B1%A0%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0/">关于</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <a id="search" class="dosearch">
+            <svg class="icon-menu icon-search">
+                <use xlink:href="#icon-search"></use>
+            </svg>
+        </a>
+        <header class="header-post" role="banner">
+            <div class="content"><h1 class="post-title" itemprop="name">About ProxyPool</h1>
+                <p itemprop="description" class="subtitle">快速、简便获取免费、高可用性代理IP</p></div>
+        </header>
+        <section class="post">
+            <article id="post" class="post-content" role="main" itemprop="mainContentOfPage"><p>ProxyPool
+                旨在快速、便捷的给用户提供免费代理IP，直接访问API接口即可获取到高可用性的代理IP地址。</p>
+                <p>关于 ProxyPool：</p>
+                <h2>使用的相关技术</h2>
+                <ul>
+                    <li><a href="https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000">Python3</a></li>
+                    <li><a href="http://docs.jinkan.org/docs/flask/">Flask</a></li>
+                    <li><a href="http://www.runoob.com/redis/redis-sorted-sets.html">Redis</a></li>
+                    <li><a href="https://github.com/lining0806/PythonSpiderNotes/">爬虫</a></li>
+                    <li><a href="https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/00143208573480558080fa77514407cb23834c78c6c7309000">异步IO</a></li>
+                    <li><a href="http://vulapps.evalbug.com/about/">前端</a></li>
+                    <li><a href="http://www.baidu.com/">...</a></li>
+                </ul>
+                <h2>Q & A</h2>
+                    <p> Q: 如何获取代理IP？</br> A: 直接访问/random接口即可。</p>
+                    <hr/>
+                    <p> Q: 获取源在哪？</br> A:  从11个免费的代理IP网站中提取</p>
+                    <hr/>
+                    <p> Q: 有没有好用的图形界面工具？</br> A: 没有</p>
+                    <hr/>
+                    <p> Q: 怎么才能看到具体实现细节？</br> A: 前往 <a href="https://github.com/w2n1ck/ProxyPool">Github项目源码</a></p><hr/>
+                    <p> Q: 有多少代理池？</br> A: 50000个</p><hr/>
+                    <p> Q: 获取的代理IP能用吗？</br> A: 使用redis的有序集合，对每个代理IP设置权重，实时检测，保证高可用性。</p><hr/>
+                    <p> Q: 我还有其它问题怎么办？</br> A: 发送邮件到<a href=mailto:admin@w2n1ck.com>admin@w2n1ck.com</a></p><hr/>
+                    </article>
+                    <footer>
+                    <p>
+                    <a href="https://github.com/w2n1ck/ProxyPool" target="_blank">Fork me on GitHub</a>
+                    <a> © </a>
+                    <a> Powered by 瓦都剋</a>
+                    </p>
+                    </footer>
+                    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+                    </section>
+                    <script>
+                    var _hmt = _hmt || [];
+                    (function() {
+                    var hm = document.createElement("script");
+                    hm.src = "https://hm.baidu.com/hm.js?5cf4651112466d7ededb6bd48c820f81";
+                    var s = document.getElementsByTagName("script")[0];
+                    s.parentNode.insertBefore(hm, s);
+                    })();
+                    </script>
+    </body>
+</html>
